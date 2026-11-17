@@ -3,9 +3,9 @@
 int main(void) {
 
   float celsius = 30.f;
-  const int Fahrenheit = 32;
+  const float FAHRENHEIT_OFFSET = 32.f;
 
-  float fahrenheit = (celsius * 9.0f / 5.0f) + 32.0f;
+  float fahrenheit = (celsius * 9.0f / 5.0f) + FAHRENHEIT_OFFSET;
 
     
     printf("Temperature Convertor\n");
