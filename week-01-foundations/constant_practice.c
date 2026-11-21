@@ -2,12 +2,11 @@
 
 int main(void) {
 
-    const int days_in_week = 7;
+    const int DAYS_IN_WEEK = 7;
+const int MONTHS_IN_YEAR = 12;
 
-    const int months_in_year = 12;
-
-    printf("Days in a week: %d\n", days_in_week);
-    printf("Months in a year: %d\n", months_in_year);
+    printf("Days in a week: %d\n", DAYS_IN_WEEK);
+    printf("Months in a year: %d\n", MONTHS_IN_YEAR);
 
     return 0;
 }
